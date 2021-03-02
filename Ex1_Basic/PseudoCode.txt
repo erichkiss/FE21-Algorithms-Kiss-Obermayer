@@ -1,0 +1,36 @@
+Binary-search algorythm (Half - interval search):
+
+I = Guessed number
+N = Secret Number
+J = Range of numbers
+
+Define a range: 
+1. Q: Is N = I?
+2. A: Yes - "Bingo!"
+3.1 A: No1 - "I is bigger."
+3.2 A: No2 - "I is lower." ...
+
+
+
+
+
+
+
+
+
+Trys...
+
+2. A: No - "Go to line 7."  
+3. A: Yes - "It's bigger". -> J = J * 100 
+
+4. Q: Is N > tan J? 
+5. A: No - "Go to line 7." -> 
+6. A: Yes -  "Go back to line 3"
+
+7. J/2 = L 
+J - L = U
+Q: Is N > J 
+
+
+
+Is 
